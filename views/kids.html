@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Clothing - WESTSIDE</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class="westside-header" role="banner">
+        <div class="container">
+            <div class="logo">
+                <a href="/" aria-label="Westside Home">
+                    <h1 class="logo-text">WESTSIDE</h1>
+                </a>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Menu" aria-expanded="false">
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+            </button>
+
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="/men">MEN</a></li>
+                    <li><a href="/women">WOMEN</a></li>
+                    <li><a href="/kids" aria-current="page">KIDS</a></li>
+                    <li><a href="/new-arrivals">NEW ARRIVALS</a></li>
+                    <li><a href="/offers">OFFERS</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <button class="search-icon" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <a href="/wishlist" class="wishlist-icon" aria-label="Wishlist">
+                    <i class="far fa-heart"></i>
+                </a>
+                <a href="/cart" class="cart-icon" aria-label="Cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <a href="/account" class="user-icon" aria-label="Account">
+                    <i class="far fa-user"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">Kids Clothing</h2>
+            <div class="product-grid">
+                <!-- Product Cards -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/images/placeholder.jpg" alt="Kids T-Shirt" loading="lazy">
+                        <div class="product-actions">
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Kids T-Shirt</h3>
+                        <div class="product-price">₹499</div>
+                        <button class="add-to-cart-btn" aria-label="Add to cart">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Repeat similar structure for other products -->
+                <!-- ... -->
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="westside-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>WESTSIDE</h2>
+                    <p>Your Fashion Destination</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/men">Men</a></li>
+                        <li><a href="/women">Women</a></li>
+                        <li><a href="/kids">Kids</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> WESTSIDE. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
