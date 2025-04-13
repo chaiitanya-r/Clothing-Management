@@ -10,6 +10,8 @@ class Clothing {
                 price DECIMAL(10,2) NOT NULL,
                 size VARCHAR(50),
                 color VARCHAR(50),
+                image_url VARCHAR(255),
+                stock_quantity INT DEFAULT 0,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         `;
